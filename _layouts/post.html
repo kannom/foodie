@@ -24,7 +24,26 @@
             </header>
             {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt=""/></span>{%
             endif %}
-            <div>{{ content }}</div>
+
+            {% for recipe in page.recipes %}
+            <h2>{{recipe.name}}</h2>
+            <div style="overflow: hidden">
+                <div style="float: left">
+                    <h3>Ingredients</h3>
+                    {% for ingredient in recipe.ingredients %}
+                    <div>{{ ingredient }}</div>
+                    {% endfor %}
+                </div>
+                <div style="float: left;">
+                    <h3>Method</h3>
+                    <ol>
+                        {% for step in recipe.method %}
+                        <li>{{ step }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </section>
 </div>
