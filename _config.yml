@@ -1,8 +1,8 @@
 # Site settings
 title: Foodie Bloogie
-subtitle: by Matthew Robert Cannon
+subtitle: by Matthew Robert Cannon and Samantha JR
 description: Sams Recipe Collection
-baseurl: "/foodie" # the subpath of your site, e.g. /blog
+baseurl: "/foodie/" # the subpath of your site, e.g. /blog
 url: "https://kannom.github.io" # the base hostname & protocol for your site
 
 # Homepage tiles
