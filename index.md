@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Home
-landing-title: 'Samanthas Fantasic Recipe Collection'
+landing-title: 'Samantha's Sassy Selection of S..recipes'
 ---
