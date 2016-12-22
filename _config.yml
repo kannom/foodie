@@ -7,7 +7,7 @@ url: "https://kannom.github.io" # the base hostname & protocol for your site
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 4
+tiles-count: 6
 
 # Build settings
 markdown: kramdown

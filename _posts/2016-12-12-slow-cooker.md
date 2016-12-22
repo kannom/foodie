@@ -4,19 +4,12 @@ title: Sloooww Cookerr
 description: Takin it sloooowww
 image: assets/images/slow-cooker-2.jpg
 recipes: 
-- name : Recipe 1
+- name : Porkins
   ingredients:
-    -  Ingredient
-    -  Ingredient
+    - Takea de pork
+    - Barbeque sawse.
   method:
-    - Step
-    - Step
-    
-- name : Recipe 2
-  ingredients:
-    - Ingredient
-    -  Ingredient
-  method:
-    - Step
-    - Step
+    - Put sauces on pork.
+    - Put slow cooker on pork.
+    - Cook for 7 hourses.
 ---
