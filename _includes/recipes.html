@@ -1,0 +1,12 @@
+<section id="one" class="tiles">
+	{% for recipe in page.recipes %}
+        <article>
+                <span class="image">
+                        <img src="{{ recipe.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ recipe.url | relative_url }}" class="link">{{ recipe.name }}</a></h3>
+                </header>
+        </article>
+	{% endfor %}
+</section>
